@@ -4,8 +4,8 @@ on:
     inputs:
       enable_feature_x:
         description: "是否启用KPM"
-        required: true
-        default: true
+        required: false
+        default: false
         type: boolean
       enable_feature_y:
         description: "跳过版本比较"
